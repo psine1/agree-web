@@ -224,7 +224,6 @@ h3 {
 }
 .feature-card h3 {
   line-height: 120%;
-  width: 70%;
 }
 .feature-card h4 {
   font-family: "Montserrat", sans-serif;
@@ -276,6 +275,114 @@ h3 {
 
 #impacto img {
   width: 100%;
+}
+
+.wrap-feature-cards-sm {
+  gap: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+.wrap-feature-cards-sm .feature-card {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 50px rgba(57, 115, 103, 0.1);
+  backdrop-filter: blur(20px);
+  border-radius: 30px;
+  padding-top: 1.8rem;
+  padding-bottom: 1rem;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.wrap-feature-cards-sm .feature-card h3 {
+  font-size: 24px;
+  margin-bottom: 1rem !important;
+  background: linear-gradient(89.97deg, #4D7DFF 0.03%, #3DE7BC 101.22%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.wrap-feature-cards-sm .feature-card p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+.wrap-feature-cards-sm .icon-feature {
+  width: 60px;
+  display: flex;
+  align-self: flex-end;
+}
+.wrap-feature-cards-sm .icon-feature img {
+  width: 100%;
+}
+.wrap-feature-cards-sm .header-card {
+  display: flex;
+}
+
+.feature-data {
+  background: #FFFFFF;
+  /*   box-shadow: 0px 0px 50px rgba(57, 115, 103, 0.1);
+     backdrop-filter: blur(20px); */
+  border-radius: 30px;
+  padding-top: 1.8rem;
+  padding-bottom: 1rem;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.feature-data .wrap-data {
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #4D7DFF 11.75%, #3DE7BC 86.45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.feature-data .wrap-data sup {
+  font-size: 35px;
+}
+
+footer .wrap-green {
+  background: #397367;
+  border-radius: 30px 30px 0px 0px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+footer .wrap-green h3 {
+  color: #FFFFFF;
+  text-align: center;
+}
+footer .copyright {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+footer p {
+  font-size: 14px;
+}
+footer .footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+footer .social-logo {
+  height: 36px;
+}
+footer .footer-right {
+  display: flex;
+  gap: 0.5rem;
 }
 
 .fadeInUp {
