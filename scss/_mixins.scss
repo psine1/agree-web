@@ -1,0 +1,24 @@
+@mixin boton {
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: $colorPrimario;
+    color: $colorNegro;
+    box-shadow: 0px 0px 15px -6px rgba(0, 0, 0, 0.571);
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+@mixin miBanner ($imagen){
+    @if $imagen == cafe {
+        min-height: 450px;
+        background-image: url('../media/img1.png');
+        background-position: center;
+        background-size: cover;
+    } @else if $imagen == compu{
+        min-height: 450px;
+        background-image: url('../media/img2.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+}

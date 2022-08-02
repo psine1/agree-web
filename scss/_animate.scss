@@ -1,0 +1,139 @@
+
+
+.fadeInUp{
+ animation-name: fadeInUpAnim;
+ animation-duration:1s;
+ animation-delay:0s;
+ animation-fill-mode: forwards;
+ animation-timing-function: ease;
+ animation-iteration-count: 1;
+}
+@keyframes fadeInUpAnim{
+  0% {
+    opacity:0;
+    transform:  translate(0px,20px);
+  }
+    100% {
+    opacity:1;
+    transform:  translate(0px,0px);
+  }
+}
+
+
+.fadeInLeft{
+ animation-name: fadeInLeftAnim;
+ animation-duration:1s;
+ animation-delay:0s;
+ animation-fill-mode: forwards;
+ animation-timing-function: ease;
+ animation-iteration-count: 1;
+}
+@keyframes fadeInLeftAnim{
+  0% {
+    opacity:0;
+    transform:  translate(-50px,0px);
+  }
+    100% {
+    opacity:1;
+    transform:  translate(0px,0px);
+  }
+}
+
+.fadeInRight{
+ animation-name: fadeInRightAnim;
+ animation-duration:1s;
+ animation-delay:0s;
+ animation-fill-mode: forwards;
+ animation-timing-function: ease;
+ animation-iteration-count: 1;
+}
+@keyframes fadeInRightAnim{
+  0% {
+    opacity:0;
+    transform:  translate(50px,0px);
+  }
+    100% {
+    opacity:1;
+    transform:  translate(0px,0px);
+  }
+}
+
+
+.fadeIn{
+ animation-name: fadeInAnim;
+ animation-duration:1s;
+ animation-delay:0.5s;
+ animation-fill-mode: backwards;
+ animation-timing-function: ease;
+ animation-iteration-count: 1;
+}
+@keyframes fadeInAnim{
+  0% {
+    opacity:0;
+  }
+    100% {
+    opacity:1;
+  }
+}
+
+.fadeIn-delay{
+ animation-name: fadeIn-delayAnim;
+ animation-duration:2s;
+ animation-delay:0s;
+ animation-fill-mode: backwards;
+ animation-timing-function: ease;
+ animation-iteration-count: 1;
+}
+@keyframes fadeIn-delayAnim{
+  0% {
+    opacity:0;
+  }
+    100% {
+    opacity:1;
+  }
+}
+
+.scaleIn{
+ animation-name: scaleInAnim;
+ animation-duration:1s;
+ animation-delay:0.8s;
+ animation-fill-mode: backwards;
+ animation-timing-function: ease;
+ animation-iteration-count: 1;
+}
+@keyframes scaleInAnim{
+  0% {
+    opacity:0;
+    transform:  scale(0);
+  }
+    100% {
+    opacity:1;
+    transform:  scale(1);
+  }
+}
+
+
+
+ @media (max-width: 575.98px) { 
+
+.fadeInLeft{
+ animation-name: fadeInLeftAnim;
+ animation-duration:1s;
+ animation-delay:0s;
+ animation-fill-mode: forwards;
+ animation-timing-function: ease;
+ animation-iteration-count: 1;
+}
+@keyframes fadeInLeftAnim{
+  0% {
+    opacity:0;
+    transform:  translate(0px,20px);
+  }
+    100% {
+    opacity:1;
+    transform:  translate(0px,0px);
+  }
+}
+
+
+  }
