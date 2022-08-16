@@ -17,6 +17,8 @@ body{
     margin: auto;
     font-family: $montserrat;
     color: #333333;
+    background-color: #F5F5F5;
+    overflow-x: hidden;
 }
 
 .fill-button{
@@ -140,6 +142,10 @@ h5{
     width: 33.3333333333%;
   }
 
+  .col-6{
+    width: 50%;
+  }  
+
   .flexible {
     flex-grow: 1;
 }
@@ -202,4 +208,24 @@ h5{
         transform: rotate(360deg);
     }
 }
+
+
+
+
+
+
+
+@media (max-width: 576px) { 
+    .column-sm-nonreverse{
+        flex-direction: column;
+    }
+
+
+.container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+}
+
 
