@@ -93,7 +93,7 @@ animation.to(slides, {
 },0)
 
 animation.to('.feature-card', {
-  rotate: 360,
+ // rotate: 360,
   ease: "none",
   stagger: {
    amount: numSlides-1

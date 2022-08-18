@@ -560,6 +560,9 @@ footer{
 
                 .slides-inner{
                     position: relative;
+                    height: 100%;
+                    width: 100%;  
+                    
                 }
                 
                 .slide {
@@ -571,7 +574,8 @@ footer{
                   }
 
                   .slides-container{
-                  //  overflow: hidden;
+                    position: relative;
+                    
                   }
 
 
