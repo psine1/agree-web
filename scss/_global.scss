@@ -162,6 +162,16 @@ h5{
     margin-bottom: 3rem;
 }
 
+
+
+.positionRel{
+    position: relative;
+}
+
+.positionAb{
+    position: absolute;
+}
+
 #loader-container{
     display: flex;
     justify-content: center;
@@ -224,7 +234,33 @@ h5{
 .container{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    width: 100%;
 }
+
+.fill-button{
+    font-size: 14px;
+    font-weight: 700;                    
+    color: #FFFFFF;
+    border: 1px solid $secondaryColor;
+    border-radius: 37px;
+    padding: 15px 36px 15px 36px;
+    background-color: $secondaryColor;
+
+    //margin-bottom: 1rem;
+
+}    
+
+
+
+
+.col-sm-12{
+    width: 100%;
+}
+
+.col-6{
+    width: 100% !important;
+}  
+
 
 }
 

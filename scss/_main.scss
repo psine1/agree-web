@@ -413,6 +413,10 @@ h3{
 
 
 
+
+
+
+
 .feature-data{
 /*    background: #FFFFFF;*/
  /*   box-shadow: 0px 0px 50px rgba(57, 115, 103, 0.1);
@@ -492,13 +496,7 @@ footer{
 
 @media (max-width: 576px) { 
     
-    .col-sm-12{
-        width: 100%;
-    }
-
-    .col-6{
-        width: 100% !important;
-    }    
+  
 
         .nav-wrap-all{
             .nav-wrap{    
@@ -544,7 +542,6 @@ footer{
 
         }    
         
-
                 .feature-card{
                     display: flex;
                     justify-content: center;
@@ -557,6 +554,25 @@ footer{
                 .column-sm-nonreverse{
                     flex-direction: column;
                 }
+
+
+
+
+                .slides-inner{
+                    position: relative;
+                }
+                
+                .slide {
+                    position: absolute;
+                    color: #ffcc00 !important;
+                    justify-content: center;                    
+                    width: calc(100% / 3);
+                    width: 100%;
+                  }
+
+                  .slides-container{
+                  //  overflow: hidden;
+                  }
 
 
     }
