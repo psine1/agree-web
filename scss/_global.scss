@@ -6,6 +6,7 @@
 
 #app{
     display: none;
+    overflow: hidden;
 }
 
 .container{
@@ -143,7 +144,7 @@ h5{
   }
 
   .col-6{
-    width: 50%;
+    width: 49%;
   }  
 
   .flexible {
@@ -155,7 +156,9 @@ h5{
     height: 100%;
 }
 
-
+.gap{
+    gap: 1rem;
+}
 
 .margin-y{
     margin-top: 3rem;

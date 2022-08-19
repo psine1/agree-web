@@ -9,16 +9,20 @@
     text-decoration: none;
 }
 
-@mixin miBanner ($imagen){
-    @if $imagen == cafe {
-        min-height: 450px;
-        background-image: url('../media/img1.png');
+
+@mixin banner ($imagen){
+    @if $imagen == home {
+        background-image:linear-gradient(90.07deg, #397367 0.06%, #3DE7BC 99.93%), url("../images/img-header.jpg");
+        background-blend-mode: multiply;
         background-position: center;
+        background-repeat: no-repeat;
         background-size: cover;
-    } @else if $imagen == compu{
-        min-height: 450px;
-        background-image: url('../media/img2.jpg');
+    }
+     @else if $imagen == section{
+        background-image:linear-gradient(90.07deg, #397367 0.06%, #3DE7BC 99.93%);
+        background-blend-mode: multiply;
         background-position: center;
+        background-repeat: no-repeat;
         background-size: cover;
     }
 }
