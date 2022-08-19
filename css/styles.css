@@ -656,6 +656,176 @@ footer .footer-right {
     margin-top: 2rem;
   }
 }
+/**/
+.header-white #hero {
+  /*    display: none;*/
+}
+.header-white .hero-banner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.header-white .hero-banner .hero-tittle {
+  padding-left: 1rem;
+}
+.header-white .hero-banner .hero-tittle .fill-button {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  border: 1px solid #3DE7BC;
+  border-radius: 37px;
+  padding: 15px 36px 15px 36px;
+  background-color: #3DE7BC;
+  margin-top: 1.5rem;
+}
+.header-white .hero-banner .hero-tittle span {
+  color: #3DE7BC;
+}
+.header-white .hero-banner .hero-img {
+  padding-right: 0rem;
+}
+.header-white .hero-banner .hero-img .wrap-hero {
+  position: relative;
+  height: 392px;
+}
+.header-white .hero-banner .hero-img .wrap-hero img {
+  width: 100%;
+}
+.header-white .hero-banner .hero-img .wrap-hero .smartphone-hero {
+  position: absolute;
+  width: 200px;
+  top: 0px;
+}
+.header-white .hero-banner .hero-img .wrap-hero .panel-hero {
+  position: absolute;
+  width: 400px;
+  top: -15px;
+  left: 118px;
+}
+.header-white .hero-banner .hero-img .wrap-hero .estado-hero {
+  position: absolute;
+  width: 120px;
+  top: 130px;
+  left: 430px;
+}
+.header-white .hero-banner .hero-img .wrap-hero .scoring-hero {
+  position: absolute;
+  width: 160px;
+  top: 270px;
+  left: -50px;
+}
+.header-white .hero-banner .hero-img .wrap-hero .scroring-section {
+  position: absolute;
+  width: 254px;
+  top: 90px;
+  left: 350px;
+}
+.header-white .tittle-header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 43px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.header-white p {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 2rem;
+  margin-top: 1rem;
+}
+.header-white h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 5.5px;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: #FFFFFF;
+}
+
+.nav-wrap-all-white {
+  box-shadow: 0px 4px 20px rgba(57, 115, 103, 0.1);
+}
+.nav-wrap-all-white .nav-wrap-white {
+  display: flex;
+  align-items: center;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  flex: auto;
+}
+.nav-wrap-all-white .nav-wrap-white .nav-logo-white {
+  width: 105px;
+  margin-left: 1rem;
+}
+.nav-wrap-all-white .nav-wrap-white .nav-logo-white img {
+  width: 105px;
+}
+.nav-wrap-all-white .nav-wrap-white .nav-bar-white {
+  display: flex;
+  gap: 1rem;
+  flex: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-wrap-all-white .nav-wrap-white .nav-bar-white li {
+  display: inline;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  padding-left: 5rem;
+  color: #333333;
+}
+.nav-wrap-all-white .nav-wrap-white .nav-bar-white li a {
+  color: #333333;
+  text-decoration: none;
+}
+.nav-wrap-all-white .nav-wrap-white .nav-bar-white .nav-buttons {
+  display: flex;
+  gap: 1rem;
+}
+.nav-wrap-all-white .nav-wrap-white .nav-bar-white .border-button {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #3DE7BC;
+  border: 1px solid #3DE7BC;
+  border-radius: 37px;
+  padding: 13px 30px 13px 30px;
+  background-color: #FFFFFF;
+}
+.nav-wrap-all-white .nav-wrap-white .nav-bar-white .fill-button {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  border: 1px solid #3DE7BC;
+  border-radius: 37px;
+  padding: 13px 30px 13px 30px;
+  background-color: #3DE7BC;
+}
+.nav-wrap-all-white .nav-wrap-white .nav-bar-white .toggle-language {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  outline: none;
+  margin-right: 1rem;
+  background-color: transparent;
+  color: #FFFFFF;
+}
+.nav-wrap-all-white .nav-wrap-white .nav-bar-white .toggle-language .lang__chevron {
+  display: inline-block;
+  transform: rotate(90deg);
+}
+
+.tittle-Us {
+  font-size: 44px;
+}
+
 .fadeInUp {
   animation-name: fadeInUpAnim;
   animation-duration: 1s;
