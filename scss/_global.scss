@@ -18,7 +18,7 @@ body{
     margin: auto;
     font-family: $montserrat;
     color: #333333;
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
     overflow-x: hidden;
 }
 
@@ -32,6 +32,10 @@ body{
     background-color: $secondaryColor;
 
 }    
+
+img{
+    width: 100%;
+}
 
 .align-center{
     text-align: center;

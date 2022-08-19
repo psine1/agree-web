@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset=utf-8>
+	<meta name=description content="">
+	<meta name=viewport content="width=device-width, initial-scale=1">  
+    <link rel="stylesheet" type="text/css" href="css/styles.css"> 
+
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
+    <script defer src="js/InertiaPlugin.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/Draggable.min.js"></script>
+    <script defer src="js/detectmobilebrowser.js"></script>  
+    <script defer src="js/animations.js"></script>  
+</head>
+<body>
+    <div id="loader-container">
+        <div class="circle"></div>
+    </div>
+<div id="app">
+    <header class="headder-section"> 
+        <div class="nav-wrap-all">                          
+            <div class="container">
+                <div class="nav-wrap">
+                        <div class="nav-logo"><a href="index.html"><img src="images/logo-nav.png" alt="Agree"></a></div>
+                        <nav class="nav-bar">
+                            <ul>
+                                <li><a href="index.html#soluciones">Soluciones</a></li><!--
+                                --><li><a href="nosotros.html">Nosotros</a></li><!--
+                            --><li><a href="contacto.html">Contacto</a></li>
+                            </ul>
+                            <div class="nav-buttons">
+                                <a href="https://app.agree.ag/login"><button class="border-button">  Iniciar sesión</button></a>
+                                <a href="https://app.agree.ag/sign-up"><button class="fill-button">Registrate</button></a>
+                              <!--  <button class="toggle-language">ES <span class="lang__chevron">›</span></button> -->
+                            </div>
+                        </nav>
+                </div>            
+            </div>
+        </div>
+        
+        <div class="container">                        
+            <div class="row">
+                <div class="hero-banner">                    
+                    <div class="hero-tittle col-6 col-sm-12">
+                        <h5>Agree <b> RIESGO</b></h5>                        
+                        <h1 class="tittle-header">Ganá seguridad con <br> <span>inteligencia artificial</span></h1>
+                        <p>Transformá la gestión del riesgo, analizando la situación financiera y productiva de cada cliente en segundos. Gestioná las solicitudes de crédito de tu equipo comercial.</p>
+                        <button class="fill-button">Contactanos</button>
+                    </div>
+                    <div id="hero" class="hero-img col-6 col-sm-12">
+                        <div class="wrap-hero">
+                            <div class="creditos-hero"><img src="images/calificacion/img-header.png" alt=""></div>
+                            <div class="scroring-section"><img src="images/calificacion/scoring.png" alt=""></div>
+
+                        </div>
+                    </div>
+                </div>  
+            </div>                              
+        </div>            
+    </header>
+
+
+    <div class="tittle-center-sections m-t4 m-b4 align-center">
+        <h5>Motor de riesgo</h5>
+        <h3>Frase sobre <b> motor de riesgo</b></h3>
+    </div>
+
+    <section id="soluciones" class="m-t4">
+        <div class="container">
+            <div class="row m-t3">
+                <div class="feature-card m-b2 m-t2">
+                    <div class="content-text col-6 col-sm-12 p-r2">
+                        <h4><b>La solución</b></h4>
+                        <p>Nuestro motor de riesgo permite realizar la <b>calificación crediticia de tus clientes en segundos.</b>
+                            Es totalmente parametrizable, permitiendo reflejar la política de créditos de tu empresa. </p>
+                    </div>
+                    <div class="content-img col-6 col-sm-12"><img src="images/calificacion/img-1.png" alt=""></div>
+                </div>
+
+                <div class="feature-card row-reverse column-sm-nonreverse m-b2 m-t2">
+                    <div class="content-text col-6 col-sm-12 p-l2">
+                        <h4><b> Cómo funciona</b></h4>
+                        <p>El análisis de riesgo del cliente solicitante se evalúa por método de scoring en base a elementos de naturaleza cuantitativa y cualitativa que permiten <b> establecer límites de crédito acordes a las características del negocio de los clientes y a su capacidad de repago. </b> </p>
+                    </div>
+                    <div class="content-img col-6 col-sm-12"><img src="images/calificacion/img-2.png" alt=""></div>
+                </div>                  
+                          
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section id="impacto" class="m-t4 m-b4 container">
+
+        <h3 class="tittle-sections m-b4">Beneficios para distribuidores y proveedores</h3>
+
+
+        <div class="wrap-feature-cards-sm slides-container">
+            <div class="d-flex slides-inner">
+                    <div class="col-3 col-sm-12 slide">
+                        <div class="feature-card full-height">
+                            <div class="header-card">
+                                <div class="wrap-tittle"><h3>En tiempo <br> real</h3></div>
+                                <div class="wrap-icon">
+                                    <div class="icon-feature"><img src="images/icon-workspace-1.png" alt=""></div>
+                                </div>                                
+                            </div>
+                            <p><b>Análisis en segundos </b> del score crediticio del cliente.</p>
+                        </div>
+                    </div>
+                    <div class="col-3 col-sm-12 slide">
+                        <div class="feature-card full-height">
+                            <div class="header-card">
+                                <div class="wrap-tittle"><h3>Estandarización<br><br></h3>  </div>
+                                <div class="wrap-icon">
+                                    <div class="icon-feature"><img src="images/icon-workspace-2.png" alt=""></div>
+                                </div>                                
+                            </div>
+                            <p>Criterios estandarizados <b>para el análisis de solicitudes.</b></p>
+                        </div>
+                    </div>
+                    <div class="col-3 col-sm-12 slide">
+                        <div class="feature-card full-height">
+                            <div class="header-card">
+                                <div class="wrap-tittle"><h3>Fuentes y <br>Repago</h3></div>
+                                <div class="wrap-icon">
+                                    <div class="icon-feature"><img src="images/icon-workspace-3.png" alt=""></div>
+                                </div>                                
+                            </div>
+                            <p><b>Múltiples fuentes de información</b> financiera, comercial, agronómica y <b>análisis de repago</b> de los créditos. </p>
+                        </div>
+                    </div>  
+            </div>
+        </div>
+    </section>
+
+    <div class="tittle-center-sections m-t4 m-b4 align-center">
+        <h5>Gestor de crédito</h5>
+        <h3>Soluciones para la cartera de clientes <b> 100% digital.</b></h3>
+    </div>
+
+
+    <section class="m-t4">
+        <div class="container">
+            <div class="row m-t3">
+                <div class="feature-card m-b2 m-t2">
+                    <div class="content-text col-6 col-sm-12 p-r2">
+                        <h4><b>La solución</b></h4>
+                        <p>Agilizá la gestión de solicitudes de crédito del equipo comercial, para su análisis y aprobación, respetando los criterios de riesgo y los roles de autorización, brindando transparencia, trazabilidad y eficiencia. </p>
+                    </div>
+                    <div class="content-img col-6 col-sm-12"><img src="images/calificacion/img-3.png" alt=""></div>
+                </div>
+
+                <div class="feature-card row-reverse column-sm-nonreverse m-b2 m-t2">
+                    <div class="content-text col-6 col-sm-12 p-l2">
+                        <h4><b> Cómo funciona</b></h4>
+                        <p>A partir del proceso actual de gestión de créditos de la empresa, se diseñan las etapas, los roles y la información requerida de cada solicitud.  </p>
+                    </div>
+                    <div class="content-img col-6 col-sm-12"><img src="images/calificacion/img-4.png" alt=""></div>
+                </div>                  
+                          
+            </div>
+        </div>
+    </section>    
+
+
+    <section class="m-t4 m-b4 container">
+
+        <h3 class="tittle-sections m-b4">Beneficios para distribuidores y proveedores</h3>
+
+
+        <div class="wrap-feature-cards-sm slides-container">
+            <div class="d-flex slides-inner">
+                    <div class="col-3 col-sm-12 slide">
+                        <div class="feature-card full-height">
+                            <div class="header-card">
+                                <div class="wrap-tittle"><h3>Gestión<br> integral</h3></div>
+                                <div class="wrap-icon">
+                                    <div class="icon-feature"><img src="images/icon-workspace-1.png" alt=""></div>
+                                </div>                                
+                            </div>
+                            <p>Desde la solicitud del crédito, hasta la aprobación final. <b>Seguimiento punta a punta del proceso</b>, en tiempo real.</p>
+                        </div>
+                    </div>
+                    <div class="col-3 col-sm-12 slide">
+                        <div class="feature-card full-height">
+                            <div class="header-card">
+                                <div class="wrap-tittle"><h3>Trazabilidad y <br>transparencia</h3>  </div>
+                                <div class="wrap-icon">
+                                    <div class="icon-feature"><img src="images/icon-workspace-2.png" alt=""></div>
+                                </div>                                
+                            </div>
+                            <p><b>Seguimiento de cada solicitud</b>, por etapa del proceso.</b></p>
+                        </div>
+                    </div>
+                    <div class="col-3 col-sm-12 slide">
+                        <div class="feature-card full-height">
+                            <div class="header-card">
+                                <div class="wrap-tittle"><h3>Diferentes <br>niveles </h3></div>
+                                <div class="wrap-icon">
+                                    <div class="icon-feature"><img src="images/icon-workspace-3.png" alt=""></div>
+                                </div>                                
+                            </div>
+                            <p>Aprobación <b> según niveles de los montos financieros.</b></p>
+                        </div>
+                    </div>  
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="m-t4 m-b4 container">
+
+        <h3 class="tittle-sections m-b4">Otros productos</h3>
+
+
+        <div class="feature-card-section">
+            <div class="d-flex gap">
+                    <div class="col-6 col-sm-12">
+                        <div class="feature-card full-height">
+                            <div class="content-text  p-r2 card-shadow full-height">
+                                <h5>Agree <b> financiación</b></h5>
+                                <h4>Solicitá crédito <b>sin burocracia</b></h4>
+                                <p>Cargá tu solicitud de manera 100% digital. Sin costos ni comisiones adicionales a la tasa de interés y con varias opciones de monedas, plazos y garantías. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-12">
+                        <div class="feature-card full-height">
+                            <div class="content-text card-shadow full-height ">
+                                <h5>Agree <b> workspace</b></h5>
+                                <h4>Gestioná tus canjes  <b> con trazabilidad</b></h4>
+                                <p>Sumá valor a tu ecosistema con una operación diaria más ordenada, colaborativa, segura y transparente.</p>
+                            </div>
+                        </div>
+                    </div> 
+            </div>                    
+        </div>
+    </section>    
+
+
+  
+
+
+    <footer>
+        <div class="wrap-green">
+            <div class="container">
+                <h3>¿Cómo te ayudamos?</h3>
+                <div class="align-center">  <button class="fill-button m-t1">Contactános</button></div>
+            </div>
+        </div>
+        <div class="footer-bottom container m-t3 m-b3">
+            <div class="footer-left">
+              <p class="copyright">Copyright 2017-2022 Agree - All Rights reserved</p>
+              <p>Términos y Condiciones - Política de Privacidad de Agree.</p>
+            </div>
+
+            <div class="footer-right">
+                <img class="social-logo" src="images/logo-fb.png" alt="facebook">
+                <img class="social-logo" src="images/logo-tw.png" alt="twitter">
+                <img class="social-logo" src="images/logo-in.png" alt="linkedin">
+                <img class="social-logo" src="images/logo-ig.png" alt="instagram">
+              </div>
+
+        </div>        
+    </footer>
+
+
+</div>
+
+</body>
+
+</html>

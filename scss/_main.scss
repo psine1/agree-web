@@ -196,13 +196,20 @@ h3{
                 left: 430px;
             }  
             
-
             .scoring-hero{
                 position: absolute;
                 width: 160px;
                 top: 270px;
                 left: -50px;
-            }              
+            }   
+            
+            
+            .scroring-section {
+                position: absolute;
+                width: 254px;
+                top: 90px;
+                left: 350px;
+            }             
             
          }
     }
@@ -485,6 +492,9 @@ h3{
 
 
 footer{
+
+    background-color: #FBFCFF;
+
     .wrap-green{
         background: #397367;
         border-radius: 30px 30px 0px 0px;
@@ -535,10 +545,39 @@ footer{
 
 /* BULLETS CARD */
 
+.tittle-center-sections{
+    font-size: 32px;
+    font-family: $montserrat;
+
+    h3{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+    }
+
+    h5{
+        font-size: 14px;
+        font-family: $montserrat;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        background: linear-gradient(89.97deg, #4D7DFF 0.03%, #3DE7BC 101.22%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+}
 
 .tittle-sections{
     font-size: 32px;
     font-family: $montserrat;
+
+    span {
+        font-weight: 400;
+        color: #333333;
+    }
 }
 
 .wrap-bulletCard{

@@ -180,6 +180,12 @@ h3 {
   top: 270px;
   left: -50px;
 }
+.header-home .hero-banner .hero-img .wrap-hero .scroring-section, .headder-section .hero-banner .hero-img .wrap-hero .scroring-section {
+  position: absolute;
+  width: 254px;
+  top: 90px;
+  left: 350px;
+}
 .header-home .tittle-header, .headder-section .tittle-header {
   font-family: "Montserrat", sans-serif;
   font-size: 43px;
@@ -384,6 +390,9 @@ h3 {
   font-size: 35px;
 }
 
+footer {
+  background-color: #FBFCFF;
+}
 footer .wrap-green {
   background: #397367;
   border-radius: 30px 30px 0px 0px;
@@ -420,9 +429,35 @@ footer .footer-right {
 }
 
 /* BULLETS CARD */
+.tittle-center-sections {
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+}
+.tittle-center-sections h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+}
+.tittle-center-sections h5 {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  background: linear-gradient(89.97deg, #4D7DFF 0.03%, #3DE7BC 101.22%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
 .tittle-sections {
   font-size: 32px;
   font-family: "Montserrat", sans-serif;
+}
+.tittle-sections span {
+  font-weight: 400;
+  color: #333333;
 }
 
 .wrap-bulletCard {
@@ -771,7 +806,7 @@ body {
   margin: auto;
   font-family: "Montserrat", sans-serif;
   color: #333333;
-  background-color: #F5F5F5;
+  background-color: #FFFFFF;
   overflow-x: hidden;
 }
 
@@ -783,6 +818,10 @@ body {
   border-radius: 37px;
   padding: 15px 36px 15px 36px;
   background-color: #3DE7BC;
+}
+
+img {
+  width: 100%;
 }
 
 .align-center {
