@@ -685,6 +685,16 @@ footer .footer-right {
   border: 1px solid #46FECF;
   color: white;
 }
+.header-white .hero-banner .hero-tittle .border-button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  /*   color: white;*/
+  border: 1px solid #ffffff;
+}
+.header-white .hero-banner .hero-tittle .fill-button:hover {
+  background-color: #46FECF;
+  border: 1px solid #46FECF;
+  color: white;
+}
 .header-white .hero-banner .hero-tittle span {
   color: #3DE7BC;
 }

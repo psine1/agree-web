@@ -860,7 +860,20 @@ footer{
                 background-color: #46FECF;
                 border: 1px solid #46FECF;
                 color: white;
-              }            
+              }    
+              
+              .border-button:hover {
+                background-color: rgb(255, 255, 255, 0.9);
+             /*   color: white;*/
+                border: 1px solid #ffffff;
+
+              }
+            
+              .fill-button:hover {
+                background-color: #46FECF;
+                border: 1px solid #46FECF;
+                color: white;
+              }              
     
             span{
                 color: $secondaryColor;
