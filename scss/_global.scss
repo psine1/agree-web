@@ -14,12 +14,20 @@
     margin: auto;
 }
 
+
+
 body{
     margin: auto;
     font-family: $montserrat;
     color: #333333;
     background-color: #FFFFFF;
     overflow-x: hidden;
+}
+
+p{
+    line-height: 24px;
+    font-family: $inter;
+    font-size: 16px;
 }
 
 .fill-button{
@@ -30,6 +38,9 @@ body{
     border-radius: 37px;
     padding: 15px 36px 15px 36px;
     background-color: $secondaryColor;
+    a{
+        text-decoration: none !important;
+      }
 
 }    
 
@@ -39,6 +50,10 @@ img{
 
 .align-center{
     text-align: center;
+}
+
+.align-left{
+    text-align: left;
 }
 
 h3{
@@ -151,6 +166,12 @@ h5{
     width: 49%;
   }  
 
+
+  
+  .col-8{
+    width: 66%;
+  }   
+
   .flexible {
     flex-grow: 1;
 }
@@ -252,7 +273,9 @@ h5{
     border-radius: 37px;
     padding: 15px 36px 15px 36px;
     background-color: $secondaryColor;
-
+    a{
+        text-decoration: none !important;
+      }
     //margin-bottom: 1rem;
 
 }    
