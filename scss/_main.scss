@@ -220,8 +220,7 @@ h3{
         padding-bottom: 3rem;
     
         .hero-tittle{
-            padding-left: 1rem;
-            padding-right: 3rem;
+            padding-right: 1rem;
     
             .fill-button{
                 font-size: 1rem;
@@ -261,28 +260,28 @@ h3{
                 position: absolute;
                 width: 200px;
                 top: 0px;
-
+                right: 320px;
             }
 
             .panel-hero{
                 position: absolute;
                 width: 400px;
                 top: -15px;
-                left: 118px;
+                right: 0px;
             } 
 
             .estado-hero{
                 position: absolute;
                 width: 120px;
                 top: 130px;
-                left: 430px;
+                right: 0px;
             }  
             
             .scoring-hero{
                 position: absolute;
                 width: 160px;
                 top: 270px;
-                left: -50px;
+                left: -10px;
             }   
             
             
@@ -363,6 +362,8 @@ h3{
     }
 
     .content-img{
+        position: relative;
+        
       /*   width: 50%; */
         img{
             width: 100%;
@@ -408,7 +409,7 @@ h3{
         font-family: $inter;
         color: $textColor;
         font-size: 1rem;
-        line-height: 26px;
+        line-height: 25px;
     }
 
 
@@ -495,7 +496,6 @@ h3{
         }
 
         p{
-            font-family: $montserrat;
             font-size: 16px;
         }
     }
@@ -615,6 +615,11 @@ footer{
         display: flex;
         gap: 0.5rem;
     }
+
+    .footer-left{
+
+        color: #397367;
+    }    
 
 }
 
@@ -807,7 +812,7 @@ footer{
         font-family: $inter;
         color: $textColor;
         font-size: 1rem;
-        line-height: 26px;
+        line-height: 32px;
     }
 
 
@@ -842,7 +847,6 @@ footer{
         padding-bottom: 3rem;
     
         .hero-tittle{
-            padding-left: 1rem;
     
             .fill-button{
                 font-size: 1rem;
@@ -1180,9 +1184,14 @@ footer{
 }
 
 
+
+
+
+
+
 @media (max-width: 576px) { 
     
-  
+
 
         .nav-wrap-all{
             .nav-wrap{    
@@ -1277,6 +1286,43 @@ footer{
                     margin-top: 2rem;
                 }
 
+
+                .feature-card{
+
+                        h4{
+                            font-size: 26px;
+                        }
+
+                }
+
+                .p-r2{
+                    padding-right: 0px;
+                }
+
+                .p-l2{
+                    padding-right: 0px;
+                }       
+                
+                .tittle-center{
+                    font-family: $montserrat;
+                    font-size: 32px;
+                    font-weight: 700;
+                    color: #333333;
+                    line-height: 120%;
+                    text-align: left;
+                    padding-right: 16px;
+                }                
+
+footer{
+    .footer-left{
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }   
+}
+
+
+
     }
 
 
@@ -1316,3 +1362,63 @@ a {
     user-select: none;
     cursor: not-allowed;
     }
+
+
+
+/*  Animaciones - imagenes home    */
+
+
+
+.wrap-financiamiento-img {
+    position: relative;
+    width: 564px;
+    height: 400px;
+}
+
+
+.img-panel{
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+.counter{
+    position: absolute;
+    left: 389px;
+    bottom: 83px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    text-align: left;
+}
+
+.circle-slider{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #3DE7BC;
+    right: 49%;
+    top: 65%;
+}
+
+
+
+.swiper-slide {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .swiper {
+    width: 100%;
+  }
+
+  .swiper-pagination{
+
+  }
+
+
+
+  #borrar{
+    height: 300px;
+  }

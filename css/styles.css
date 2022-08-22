@@ -185,8 +185,7 @@ h3 {
   padding-bottom: 3rem;
 }
 .header-home .hero-banner .hero-tittle, .headder-section .hero-banner .hero-tittle {
-  padding-left: 1rem;
-  padding-right: 3rem;
+  padding-right: 1rem;
 }
 .header-home .hero-banner .hero-tittle .fill-button, .headder-section .hero-banner .hero-tittle .fill-button {
   font-size: 1rem;
@@ -220,24 +219,25 @@ h3 {
   position: absolute;
   width: 200px;
   top: 0px;
+  right: 320px;
 }
 .header-home .hero-banner .hero-img .wrap-hero .panel-hero, .headder-section .hero-banner .hero-img .wrap-hero .panel-hero {
   position: absolute;
   width: 400px;
   top: -15px;
-  left: 118px;
+  right: 0px;
 }
 .header-home .hero-banner .hero-img .wrap-hero .estado-hero, .headder-section .hero-banner .hero-img .wrap-hero .estado-hero {
   position: absolute;
   width: 120px;
   top: 130px;
-  left: 430px;
+  right: 0px;
 }
 .header-home .hero-banner .hero-img .wrap-hero .scoring-hero, .headder-section .hero-banner .hero-img .wrap-hero .scoring-hero {
   position: absolute;
   width: 160px;
   top: 270px;
-  left: -50px;
+  left: -10px;
 }
 .header-home .hero-banner .hero-img .wrap-hero .scroring-section, .headder-section .hero-banner .hero-img .wrap-hero .scroring-section {
   position: absolute;
@@ -293,6 +293,7 @@ h3 {
   /*  width: 50%; */
 }
 .feature-card .content-img {
+  position: relative;
   /*   width: 50%; */
 }
 .feature-card .content-img img {
@@ -329,7 +330,7 @@ h3 {
   font-family: "Inter", sans-serif;
   color: #333333;
   font-size: 1rem;
-  line-height: 26px;
+  line-height: 25px;
 }
 
 .tittle-center {
@@ -399,7 +400,6 @@ h3 {
   text-fill-color: transparent;
 }
 .wrap-feature-cards-sm .feature-card p {
-  font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
 .wrap-feature-cards-sm .icon-feature {
@@ -481,6 +481,9 @@ footer .social-logo {
 footer .footer-right {
   display: flex;
   gap: 0.5rem;
+}
+footer .footer-left {
+  color: #397367;
 }
 
 .slides-container {
@@ -644,7 +647,7 @@ footer .footer-right {
   font-family: "Inter", sans-serif;
   color: #333333;
   font-size: 1rem;
-  line-height: 26px;
+  line-height: 32px;
 }
 
 .card-shadow {
@@ -666,9 +669,6 @@ footer .footer-right {
   align-items: center;
   padding-top: 3rem;
   padding-bottom: 3rem;
-}
-.header-white .hero-banner .hero-tittle {
-  padding-left: 1rem;
 }
 .header-white .hero-banner .hero-tittle .fill-button {
   font-size: 1rem;
@@ -978,6 +978,29 @@ footer .footer-right {
   .footer-right {
     margin-top: 2rem;
   }
+  .feature-card h4 {
+    font-size: 26px;
+  }
+  .p-r2 {
+    padding-right: 0px;
+  }
+  .p-l2 {
+    padding-right: 0px;
+  }
+  .tittle-center {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #333333;
+    line-height: 120%;
+    text-align: left;
+    padding-right: 16px;
+  }
+  footer .footer-left {
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 /**/
 a {
@@ -1004,6 +1027,52 @@ a {
   -o-user-select: none;
   user-select: none;
   cursor: not-allowed;
+}
+
+/*  Animaciones - imagenes home    */
+.wrap-financiamiento-img {
+  position: relative;
+  width: 564px;
+  height: 400px;
+}
+
+.img-panel {
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+
+.counter {
+  position: absolute;
+  left: 389px;
+  bottom: 83px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+  text-align: left;
+}
+
+.circle-slider {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #3DE7BC;
+  right: 49%;
+  top: 65%;
+}
+
+.swiper-slide {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  width: 100%;
+}
+
+#borrar {
+  height: 300px;
 }
 
 .fadeInUp {
@@ -1206,6 +1275,18 @@ h3 span {
   text-fill-color: transparent;
 }
 
+.f-weight-400 {
+  font-weight: 400;
+}
+
+.f-weight-600 {
+  font-weight: 600;
+}
+
+.f-weight-700 {
+  font-weight: 700;
+}
+
 h5 {
   font-size: 18px;
 }
@@ -1275,8 +1356,10 @@ h5 {
 }
 
 .row {
+  /*
   margin-left: 1rem;
   margin-right: 1rem;
+  */
 }
 
 .d-flex {
@@ -1376,8 +1459,8 @@ h5 {
     flex-direction: column;
   }
   .container {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     width: 100%;
   }
   .fill-button {
@@ -1391,6 +1474,9 @@ h5 {
   }
   .fill-button a {
     text-decoration: none !important;
+  }
+  h3 {
+    font-size: 32px;
   }
   .col-sm-12 {
     width: 100%;

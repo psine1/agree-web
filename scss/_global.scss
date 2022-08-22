@@ -74,6 +74,19 @@ h3{
 }
 
 
+.f-weight-400{
+    font-weight: 400;
+}
+
+.f-weight-600{
+    font-weight: 600;
+}
+
+.f-weight-700{
+    font-weight: 700;
+}
+
+
 h5{
     font-size: 18px;
 }
@@ -143,8 +156,10 @@ h5{
 }
 
 .row{
+    /*
     margin-left: 1rem;
     margin-right: 1rem;
+    */
 }
 
 .d-flex{
@@ -260,8 +275,8 @@ h5{
 
 
 .container{
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     width: 100%;
 }
 
@@ -281,6 +296,10 @@ h5{
 }    
 
 
+
+h3{
+    font-size: 32px;
+}
 
 
 .col-sm-12{

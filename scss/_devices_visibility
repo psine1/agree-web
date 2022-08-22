@@ -1,0 +1,20 @@
+.inDesktop-hidden{
+    display: none;
+}
+
+.inMobile-hidden{
+    display: block;
+}
+
+@media (max-width: 576px) { 
+
+    .inDesktop-hidden{
+        display: block;
+    }
+
+
+    .inMobile-hidden{
+        display: none;
+    }
+
+}

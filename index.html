@@ -6,12 +6,13 @@
 	<meta name=description content="">
 	<meta name=viewport content="width=device-width, initial-scale=1">  
     <link rel="stylesheet" type="text/css" href="css/styles.css"> 
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
-    <script defer src="js/InertiaPlugin.min.js"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/Draggable.min.js"></script>
-    <script defer src="js/detectmobilebrowser.js"></script>  
     <script defer src="js/animations.js"></script>  
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>    
+
 </head>
 <body>
     <div id="loader-container">
@@ -75,16 +76,22 @@
             </div>
             <div class="row m-t3">
                 <div class="feature-card m-b2 m-t2">
-                    <div class="content-text col-6 col-sm-12 p-r2">
+                    <div class="content-text col-6 col-sm-12 ">
                         <h5>Agree <b> financiamiento</b></h5>
                         <h4>Solicitá crédito <b> sin burocracia</b></h4>
                         <p>Somos la opción de financiamiento más ágil y flexible del mercado para adquirir insumos, servicios y seguros. Cargá tu solicitud con <b> mínimos requisitos y de manera 100% digital.</b>  </p>
                         <div> <a href="creditos-productor.html"><button class="fill-button m-t1">Conocé más</button> </a></div>
                     </div>
-                    <div class="content-img col-6 col-sm-12"><img src="images/solicitud-credito.png" alt=""></div>
+                    <div class="content-img col-6 col-sm-12 wrappie">
+                        <div class="wrap-financiamiento-img">
+                            <div class="img-panel"><img src="images/solicitud-credito.png" alt=""></div>
+                        </div>
+                        <div class="counter">$<span class="dynNumber">0</span>.000</div>
+                        <div class="circle-slider"></div>   
+                    </div>
                 </div>
                 <div class="feature-card row-reverse column-sm-nonreverse m-b2 m-t2">
-                    <div class="content-text col-6 col-sm-12 p-l2">
+                    <div class="content-text col-6 col-sm-12 ">
                         <h5>Agree <b> Riesgo</b></h5>
                         <h4>Reducí el riesgo y <b> mejorá la gestión del crédito</b></h4>
                         <p>Gestioná las solicitudes de crédito de tu equipo comercial, tomando las mejores decisiones a través del <b> algoritmo del motor de crédito.</b></p>
@@ -93,7 +100,7 @@
                     <div class="content-img col-6 col-sm-12"><img src="images/riesgo-agree.png" alt=""></div>
                 </div>     
                 <div class="feature-card m-b2 m-t2">
-                    <div class="content-text col-6 col-sm-12 p-r2">
+                    <div class="content-text col-6 col-sm-12 ">
                         <h5>Agree <b> workspace</b></h5>
                         <h4>Gestioná tus canjes  <b> en un solo lugar</b></h4>
                         <p>Interconectá en una misma plataforma la gestión de granos y canjes. <b> Sumá valor a tus clientes con una operación </b> diaria más <b> ordenada, colaborativa, segura y transparente.</b></p>
@@ -108,12 +115,12 @@
     <section id="impacto" class="m-t4 m-b4 container">
         <h1 class="tittle-center m-b4">Generamos <span>impacto positivo</span><br> para el crecimiento del campo</h1>
         <h5 class="small-title">plataforma integrada de punta a punta</h5>
-        <h3 class="">Agree es segura y personalizable.</h3>
+        <h3 class="f-weight-600">Agree es segura y personalizable.</h3>
         <div class="m-t4"><img src="images/panel-credito.png" alt=""></div>
 
-        <div class="wrap-feature-cards-sm slides-container">
-            <div class="d-flex slides-inner">
-                    <div class="col-3 col-sm-12 slide">
+        <div class="wrap-feature-cards-sm swiper-container mySwiper">
+            <div class="swiper-wrapper">
+                    <div class="swiper-slide full-height">
                         <div class="feature-card full-height">
                             <div class="header-card">
                                 <div class="wrap-tittle"><h3>Gestión punta a punta</h3></div>
@@ -121,10 +128,10 @@
                                     <div class="icon-feature"><img src="images/icon-workspace-1.png" alt=""></div>
                                 </div>                                
                             </div>
-                            <p>Realizamos todas las operaciones, permitiendo personalizar las acciones y vistas según el rol. Una plataforma centrada en el usuario, con una navegación ágil, intuitiva y de fácil onboarding.</p>
+                            <p>Plataforma centrada en el usuario, con una navegación ágil, intuitiva y fácil de utilizar.</p>
                         </div>
                     </div>
-                    <div class="col-3 col-sm-12 slide">
+                    <div class="swiper-slide full-height">
                         <div class="feature-card full-height">
                             <div class="header-card">
                                 <div class="wrap-tittle"><h3>Blockchain y encriptación</h3></div>
@@ -132,10 +139,10 @@
                                     <div class="icon-feature"><img src="images/icon-workspace-2.png" alt=""></div>
                                 </div>                                
                             </div>
-                            <p>Garantizamos la  seguridad de todas las interacciones y transacciones dentro de la plataforma, para tranquilidad de nuestros clientes y todos sus socios comerciales.</p>
+                            <p>Garantizamos la seguridad de las interacciones y transacciones dentro de la plataforma, para mayor tranquilidad de nuestros clientes y sus socios comerciales.</p>
                         </div>
                     </div>
-                    <div class="col-3 col-sm-12 slide">
+                    <div class="swiper-slide full-height">
                         <div class="feature-card full-height">
                             <div class="header-card">
                                 <div class="wrap-tittle"><h3>Data driven y trazabilidad</h3></div>
@@ -143,10 +150,14 @@
                                     <div class="icon-feature"><img src="images/icon-workspace-3.png" alt=""></div>
                                 </div>                                
                             </div>
-                            <p>Potenciamos la mejora en la toma de decisiones, apalancada en datos, y en tiempo real. Nuestra tecnología de análisis de datos, y la capacidad de integración con todos los actores de la cadena, permite tener una visión 360, respetando la confidencialidad.</p>
+                            <p>Potenciamos la toma de decisiones, apalancada en datos, y en tiempo real. Nuestra tecnología de análisis e integración permite tener una visión 360, respetando la confidencialidad.</p>
                         </div>
                     </div>  
             </div>
+            <div>
+                <div class="swiper-pagination"></div>            
+            </div>
+
         </div>
     </section>
 
