@@ -829,6 +829,15 @@ footer .footer-left {
 .nav-wrap-all-white .nav-wrap-white .nav-bar-white .fill-button a {
   text-decoration: none !important;
 }
+.nav-wrap-all-white .nav-wrap-white .nav-bar-white .border-button:hover {
+  background-color: hsla(166deg, 100%, 73%, 0.15);
+  /*   color: white;*/
+}
+.nav-wrap-all-white .nav-wrap-white .nav-bar-white .fill-button:hover {
+  background-color: #46FECF;
+  border: 1px solid #46FECF;
+  color: white;
+}
 .nav-wrap-all-white .nav-wrap-white .nav-bar-white .toggle-language {
   font-size: 1rem;
   font-weight: 700;
@@ -1354,6 +1363,10 @@ h5 {
   width: 49%;
 }
 
+.col-12 {
+  width: 99%;
+}
+
 .col-8 {
   width: 66%;
 }
@@ -1534,6 +1547,48 @@ h5 {
   .wrap-calificacion {
     height: 300px;
   }
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.row-wrap-2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+.row-wrap-2 input {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.row-wrap-2 textarea {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 1px;
+  border-image-source: linear-gradient(to left, #3DE7BC, #4D7DFF);
+  border-radius: 8px;
+  padding: 2rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

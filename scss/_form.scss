@@ -1,0 +1,49 @@
+label {
+    padding: 12px 12px 12px 0;
+    display: block;
+    font-family: $inter;
+    font-size: 16px;    
+  }
+
+
+  form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+
+  }
+
+  .row-wrap-2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: space-between;
+
+    input{
+        width: 100%;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+    }
+
+    textarea{
+        width: 100%;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding-top: 15px;
+        padding-bottom: 15px;        
+    }
+
+  }
+
+
+  .border-gradient {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 1px;    
+    border-image-source: linear-gradient(to left, #3DE7BC, #4D7DFF);
+    border-radius: 8px;
+    padding: 2rem;
+  }

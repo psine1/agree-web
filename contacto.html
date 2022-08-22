@@ -53,13 +53,62 @@
     <section class="container m-t4">
 
       <div class="wrap-contact d-flex">
-        <div class="col-3">
-          <h3 class="tittle-center align-left">¡Contactate <br> <span>con nosotros!</span></h3>
+        <div class="col-3 col-sm-12">
+          <h3 class="tittle-center align-left m-b2">¡Contactate <br> <span>con nosotros!</span></h3>
           <p>Agree nació con un objetivo simple y fácil de contar: la transformación digital del ecosistema agro, para que sea más ágil, eficiente, trazable y con mayor acceso a financiamiento.</p>
 
           <p><b>Existimos porque queremos acompañarte en tu crecimiento.</b></p>
         </div>
-        <div class="col-6 noselect"><img src="images/DCO.png" alt=""></div>
+        <div class="col-6 col-sm-12 wrap-form border-gradient">
+          <form action="/action_page.php">
+            <div class="row-wrap-2">
+              <div class="col-6 col-sm-12">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="">
+              </div>
+              <div class="col-6 col-sm-12">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="">
+              </div>
+            </div>
+
+            <div class="row-wrap-2">
+              <div class="col-12">
+                <label for="empresa">Empresa</label>
+                <input type="text" id="empresa" name="empresa" placeholder="">
+              </div>
+            </div>
+
+            <div class="row-wrap-2">
+              <div class="col-6 col-sm-12">
+                <label for="email">E-mail empresarial*</label>
+                <input type="text" id="email" name="email" placeholder="">
+              </div>
+              <div class="col-6 col-sm-12">
+                <label for="rol">Rol en la empresa</label>
+                <input type="text" id="rol" name="rol" placeholder="">
+              </div>
+            </div>          
+            
+            <div class="row-wrap-2">
+              <div class="col-12">
+                <label for="pais">País de origen de la empresa*</label>
+                <input type="text" id="pais" name="pais" placeholder="">
+              </div>
+            </div>            
+
+            <div class="row-wrap-2">
+              <div class="col-12">
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="" style="height:112px"></textarea>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <input class="fill-button" type="submit" value="Submit">
+            </div>
+            </form>
+        </div>
     </div>
     </section>
 

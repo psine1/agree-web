@@ -6,12 +6,15 @@
 	<meta name=description content="">
 	<meta name=viewport content="width=device-width, initial-scale=1">  
     <link rel="stylesheet" type="text/css" href="css/styles.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
     <script defer src="js/InertiaPlugin.min.js"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/Draggable.min.js"></script>
     <script defer src="js/detectmobilebrowser.js"></script>  
     <script defer src="js/animations.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>            
 </head>
 <body>
     <div id="loader-container">
@@ -42,7 +45,9 @@
                               <!--  <button class="toggle-language">ES <span class="lang__chevron">›</span></button> -->
                             </div>
                         </nav>
-                </div>            
+                </div> 
+                
+                
             </div>
         </div>
         
@@ -52,10 +57,10 @@
                     <div class="hero-tittle col-6 col-sm-12">
                         <h5>Agree <b> workspace</b></h5>                        
                         <h1 class="tittle-header">Gestioná tu red  <br> <span>con trazabilidad</span></h1>
-                        <p>Desde la propuesta comercial al cliente, la logística, hasta la liquidación final, podés gestionar todos tus negocios de granos en un solo lugar</p>
-                        <button class="fill-button">Contactanos</button>
+                        <p class="m-b2">Desde la propuesta comercial al cliente, la logística, hasta la liquidación final, podés gestionar todos tus negocios de granos en un solo lugar</p>
+                        <a class="fill-button" href="contacto.html">Contactanos</a>
                     </div>
-                    <div id="hero" class="hero-img col-6 col-sm-12">
+                    <div id="hero" class="hero-img col-6 col-sm-12 inMobile-hidden">
                         <div class="wrap-hero">
                             <div class="creditos-hero"><img src="images/gestion/img-header.png" alt=""></div>
                         </div>
@@ -125,9 +130,9 @@
         <h3 class="tittle-sections m-b4">Beneficios</h3>
 
 
-        <div class="wrap-feature-cards-sm slides-container">
-            <div class="d-flex slides-inner">
-                    <div class="col-3 col-sm-12 slide">
+        <div class="wrap-feature-cards-sm swiper-container mySwiper">
+            <div class="swiper-wrapper">
+                    <div class="swiper-slide full-height">
                         <div class="feature-card full-height">
                             <div class="header-card">
                                 <div class="wrap-tittle"><h3>Integración <br>punta a punta</h3></div>
@@ -138,7 +143,7 @@
                             <p>Amplia capacidad de integración vía API y las conexiones ya desarrolladas con los principales jugadores de la cadena de granos.</p>
                         </div>
                     </div>
-                    <div class="col-3 col-sm-12 slide">
+                    <div class="swiper-slide">
                         <div class="feature-card full-height">
                             <div class="header-card">
                                 <div class="wrap-tittle"><h3>El mejor <br>servicio </h3></div>
@@ -150,7 +155,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-3 col-sm-12 slide">
+                    <div class="swiper-slide">
                         <div class="feature-card full-height">
                             <div class="header-card">
                                 <div class="wrap-tittle"><h3>Tus canjes <br>100% digitales</h3></div>
@@ -163,6 +168,9 @@
                         </div>
                     </div>  
             </div>
+            <div class="wrap-bullets">
+                <div class="swiper-pagination"></div>            
+            </div>              
         </div>
     </section>
 

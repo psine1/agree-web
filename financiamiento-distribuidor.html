@@ -6,12 +6,16 @@
 	<meta name=description content="">
 	<meta name=viewport content="width=device-width, initial-scale=1">  
     <link rel="stylesheet" type="text/css" href="css/styles.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
     <script defer src="js/InertiaPlugin.min.js"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/Draggable.min.js"></script>
     <script defer src="js/detectmobilebrowser.js"></script>  
-    <script defer src="js/animations.js"></script>  
+    <script defer src="js/animations.js"></script> 
+    <script defer src="js/animation-2.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>             
 </head>
 <body>
     <div id="loader-container">
@@ -52,12 +56,19 @@
                     <div class="hero-tittle col-6 col-sm-12">
                         <h5>Agree <b> FINANCIACIÓN</b></h5>                        
                         <h1 class="tittle-header">Créditos <br> <span>100% digitales</span></h1>
-                        <p>Seas productor agropecuario o distribuidor de insumos y servicios nuestras opciones de financiación se adaptan a tus necesidades.</p>
-                        <button class="fill-button">Contactanos</button>
+                        <p class="m-b2">Seas productor agropecuario o distribuidor de insumos y servicios nuestras opciones de financiación se adaptan a tus necesidades.</p>
+                        <a class="fill-button" href="contacto.html">Contactanos</a>
                     </div>
-                    <div id="hero" class="hero-img col-6 col-sm-12">
-                        <div class="wrap-hero">
-                            <div class="creditos-hero"><img src="images/creditos/creditos-header.png" alt=""></div>
+                    <div id="hero" class="hero-img col-6 col-sm-12 inMobile-hidden">
+                        <div class="content-img col-6 col-sm-12 wrappie parallax-1">
+                            <div class="wrap-financiamiento-img">
+                                <div class="img-panel"><img src="images/solicitud-credito.png" alt=""></div>
+                                <img class="circle-slider" src="images/ball-solicitud-credito.png" alt="">
+    
+                            </div>
+                            <div class="counter">$<span class="dynNumber">0</span>.000</div>
+                            <div class="box-estado"><img src="images/estado-hero.png" alt=""></div>   
+    
                         </div>
                     </div>
                 </div>  
@@ -146,9 +157,9 @@
         <h3 class="tittle-sections m-b4">Beneficios para distribuidores</h3>
 
 
-        <div class="wrap-feature-cards-sm slides-container">
-            <div class="d-flex slides-inner">
-                    <div class="col-3 col-sm-12 slide">
+        <div class="wrap-feature-cards-sm swiper-container mySwiper">
+            <div class="swiper-wrapper">
+                    <div class="swiper-slide full-height">
                         <div class="feature-card full-height">
                             <div class="header-card">
                                 <div class="wrap-tittle"><h3>Screening y Plataforma</h3></div>
@@ -159,7 +170,7 @@
                             <p>Sin riesgo para el proveedor, utilización <b> sin costo operativo ni comisión </b> de la plataforma.</p>
                         </div>
                     </div>
-                    <div class="col-3 col-sm-12 slide">
+                    <div class="swiper-slide">
                         <div class="feature-card full-height">
                             <div class="header-card">
                                 <div class="wrap-tittle"><h3>Crédito <br> adicional </h3></div>
@@ -170,7 +181,7 @@
                             <p>Sin afectar el crédito bancario ni de insumos.</p>
                         </div>
                     </div>
-                    <div class="col-3 col-sm-12 slide">
+                    <div class="swiper-slide">
                         <div class="feature-card full-height">
                             <div class="header-card">
                                 <div class="wrap-tittle"><h3>Opciones</h3></div>
@@ -182,6 +193,9 @@
                         </div>
                     </div>  
             </div>
+            <div class="wrap-bullets">
+                <div class="swiper-pagination"></div>            
+            </div>              
         </div>
     </section>
 

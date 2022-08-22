@@ -1052,6 +1052,19 @@ footer{
                       }
 
                   }     
+
+                  .border-button:hover {
+                    background-color: hsla(166, 100%, 73%, 0.15);
+                 /*   color: white;*/
+
+                  }
+                
+                  .fill-button:hover {
+                    background-color: #46FECF;
+                    border: 1px solid #46FECF;
+                    color: white;
+                  }
+
                   
                   .toggle-language{
                       font-size: 1rem;
@@ -1270,7 +1283,6 @@ a {
   
 @media (max-width: 576px) { 
     
-
 
     .nav-wrap-all{
         .nav-wrap{    
