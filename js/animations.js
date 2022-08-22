@@ -86,8 +86,33 @@ tl_Global
   
           .to(".circle-slider", {duration: 1, x: 0, ease: "power3.easein"}, 6.3)    
           
-          .to(".circle-slider", {duration: 1, x: 0.05, ease: "power3.easein"}, 7.3)              
+          .to(".circle-slider", {duration: 1, x: 0.05, ease: "power3.easein"}, 7.3)     
+          
+          //.from(".box-estado", {duration: 0.5, autoAlpha: 0, scale: 0.5, rotation: 20, transformOrigin: "0% 70%", ease: "power3.easein"}, 0.5)
+          
         ;    
+
+        var animRiesgo = gsap.timeline({repeat: 0});
+        animRiesgo.timeScale( 1 );  
+        animRiesgo
+        .to(".panel-bar-1-anim", {duration: 0.7, scaleY: 1.1, yoyo: true, repeat: -1, transformOrigin: "0% 100%", ease: "none"}, 0)    
+        .to(".panel-bar-2-anim", {duration: 0.7, scaleY: 0.8, yoyo: true, repeat: -1, transformOrigin: "0% 100%", ease: "none"}, 0)    
+        .to(".panel-bar-3-anim", {duration: 0.7, scaleY: 1.1, yoyo: true, repeat: -1, transformOrigin: "0% 100%", ease: "none"}, 0)    
+        .to(".panel-bar-4-anim", {duration: 0.7, scaleY: 0.7, yoyo: true, repeat: -1, transformOrigin: "0% 100%", ease: "none"}, 0)    
+        .to(".panel-bar-5-anim", {duration: 0.7, scaleY: 1.5, yoyo: true, repeat: -1, transformOrigin: "0% 100%", ease: "none"}, 0)    
+
+        .to(".panel-ball-1-anim", {duration: 1, x: 30, yoyo: true, repeat: -1, repeatDelay: 1, transformOrigin: "0% 100%", ease: "none"}, 0)    
+        .to(".panel-ball-2-anim", {duration: 1, x: -50, yoyo: true, repeat: -1, repeatDelay: 1.5, transformOrigin: "0% 100%", ease: "none"}, 0)    
+        .to(".panel-ball-3-anim", {duration: 1, x: 80, yoyo: true, repeat: -1, repeatDelay: 2, transformOrigin: "0% 100%", ease: "none"}, 0)  
+        ;
+
+
+        var animRiesgo = gsap.timeline({repeat: 0});
+        animRiesgo.timeScale( 1 );  
+        animRiesgo
+        .to(".mobile-left-workspace", {duration: 1.5, rotation: -2, yoyo: true, repeat: -1, transformOrigin: "0% 100%", ease: "none"}, 0)    
+        .to(".mobile-right-workspace", {duration: 1.5, rotation: 2, yoyo: true, repeat: -1, transformOrigin: "0% 100%", ease: "none"}, 0)    
+        ;        
 
 
 
@@ -139,5 +164,6 @@ tl_Global
         $(window).resize(sizeAll);
         
         sizeAll();
+
 
 

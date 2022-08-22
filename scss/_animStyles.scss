@@ -1,0 +1,76 @@
+/*  Animaciones - imagenes home    */
+
+
+
+.wrap-financiamiento-img {
+    position: relative;
+    width: 564px;
+    height: 400px;
+}
+
+
+.img-panel{
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+.counter{
+    position: absolute;
+    left: 389px;
+    bottom: 83px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    text-align: left;
+}
+
+.circle-slider{
+    position: absolute;
+}
+
+.box-estado{
+    position: absolute;
+    width: 210px;
+    top: 30px;
+    left: 360px;
+}
+
+
+/*calificacion */
+
+.wrap-calificacion{
+    position: relative;
+    width: 564px;
+    height: 438px;    
+}
+
+.panel-scoring-anim{
+    left: 30px;
+}
+
+.panel-bar-1-anim, .panel-bar-2-anim, .panel-bar-3-anim, .panel-bar-4-anim, .panel-bar-5-anim{
+    width: 80px !important;
+    left: 490px;
+    top: 100px;
+}
+
+
+/*wrkspace*/
+
+
+
+
+
+  
+@media (max-width: 576px) { 
+
+    .wrap-financiamiento-img {
+        height: 250px;
+    }
+
+    .wrap-calificacion{
+        height: 300px;    
+    }
+
+}

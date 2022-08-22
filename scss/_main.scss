@@ -1189,141 +1189,6 @@ footer{
 
 
 
-@media (max-width: 576px) { 
-    
-
-
-        .nav-wrap-all{
-            .nav-wrap{    
-                .nav-bar{
-                    display: none;
-                }
-            }
-        }
-
-
-        .header-home{
-
-            .hero-tittle{
-                padding-left: 0rem;
-            }
-
-            .hero-banner{
-                flex-direction: column;
-            }
-
-            .tittle-header{
-                font-size: 36px;
-
-
-            }
-        
-            p{
-                font-family: $inter;
-                font-size: 1rem;
-                font-weight: 400;
-                color: #FFFFFF;
-                line-height: 2rem;
-                margin-top: 1rem;
-             
-        
-            }
-
-
-            .hero-img{
-                display: none;
-            }
-
-
-        }    
-        
-                .feature-card{
-                    display: flex;
-                    justify-content: center;
-                    flex-direction: column;
-                }
-
-
-
-                .column-sm-nonreverse{
-                    flex-direction: column;
-                }
-
-
-
-
-                .slides-inner{
-                    position: relative;
-                    height: 350px; 
-                    width: 100%;  
-                    
-                }
-                
-                .slide {
-                    position: absolute;
-                    color: #ffcc00 !important;
-                    justify-content: center;                    
-                    width: calc(100% / 3);
-                    width: 100%;
-                  }
-
-                  .slides-container{
-                    position: relative;
-                    pointer-events: auto;
-                    height: 100%; 
-
-                  }
-
-                  .footer-bottom{
-                    display: flex;
-                    justify-content: space-between;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                }
-
-                .footer-right{
-                    margin-top: 2rem;
-                }
-
-
-                .feature-card{
-
-                        h4{
-                            font-size: 26px;
-                        }
-
-                }
-
-                .p-r2{
-                    padding-right: 0px;
-                }
-
-                .p-l2{
-                    padding-right: 0px;
-                }       
-                
-                .tittle-center{
-                    font-family: $montserrat;
-                    font-size: 32px;
-                    font-weight: 700;
-                    color: #333333;
-                    line-height: 120%;
-                    text-align: left;
-                    padding-right: 16px;
-                }                
-
-footer{
-    .footer-left{
-        text-align: center;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }   
-}
-
-
-
-    }
 
 
 
@@ -1365,43 +1230,15 @@ a {
 
 
 
-/*  Animaciones - imagenes home    */
 
 
 
-.wrap-financiamiento-img {
+/* swiper */
+
+.wrap-bullets{
     position: relative;
-    width: 564px;
-    height: 400px;
+    padding-top: 20px;
 }
-
-
-.img-panel{
-    position: absolute;
-    top: 0;
-    right: 0px;
-}
-
-.counter{
-    position: absolute;
-    left: 389px;
-    bottom: 83px;
-    font-size: 18px;
-    font-weight: 600;
-    color: #000000;
-    text-align: left;
-}
-
-.circle-slider{
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background-color: #3DE7BC;
-    right: 49%;
-    top: 65%;
-}
-
-
 
 .swiper-slide {
     display: block;
@@ -1422,3 +1259,147 @@ a {
   #borrar{
     height: 300px;
   }
+
+
+
+
+
+
+
+
+  
+@media (max-width: 576px) { 
+    
+
+
+    .nav-wrap-all{
+        .nav-wrap{    
+            .nav-bar{
+                display: none;
+            }
+        }
+    }
+
+
+    .header-home{
+
+        .hero-tittle{
+            padding-left: 0rem;
+        }
+
+        .hero-banner{
+            flex-direction: column;
+        }
+
+        .tittle-header{
+            font-size: 36px;
+
+
+        }
+    
+        p{
+            font-family: $inter;
+            font-size: 1rem;
+            font-weight: 400;
+            color: #FFFFFF;
+            line-height: 2rem;
+            margin-top: 1rem;
+         
+    
+        }
+
+
+        .hero-img{
+            display: none;
+        }
+
+
+    }    
+    
+            .feature-card{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+
+
+
+            .column-sm-nonreverse{
+                flex-direction: column;
+            }
+
+
+
+
+            .slides-inner{
+                position: relative;
+                height: 350px; 
+                width: 100%;  
+                
+            }
+            
+            .slide {
+                position: absolute;
+                color: #ffcc00 !important;
+                justify-content: center;                    
+                width: calc(100% / 3);
+                width: 100%;
+              }
+
+              .slides-container{
+                position: relative;
+                pointer-events: auto;
+                height: 100%; 
+
+              }
+
+              .footer-bottom{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .footer-right{
+                margin-top: 2rem;
+            }
+
+
+            .feature-card{
+
+                    h4{
+                        font-size: 26px;
+                    }
+
+            }
+
+            .p-r2{
+                padding-right: 0px;
+            }
+
+            .p-l2{
+                padding-right: 0px;
+            }       
+            
+            .tittle-center{
+                font-family: $montserrat;
+                font-size: 32px;
+                font-weight: 700;
+                color: #333333;
+                line-height: 120%;
+                text-align: left;
+                padding-right: 16px;
+            }                
+
+footer{
+.footer-left{
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}   
+}
+
+
+
+}
