@@ -96,7 +96,7 @@ tl_Global
             },
             1024: {
               slidesPerView: 3,
-              spaceBetween: 20,
+              spaceBetween: 10,
             },
           },
         });
@@ -128,3 +128,18 @@ tl_Global
 
 
 
+
+        var animModal = gsap.timeline({paused: true});
+        animModal
+        .from(".wrap-modal", {duration: 0.3, autoAlpha: 0, ease: "none"}, 0)
+        .from(".inner-modal", {duration: 0.3, autoAlpha: 0, y: 50, ease: "none"}, 0.2);
+
+
+        $('.modal').click(function(){
+          animModal.restart();
+        });
+
+
+        $('.wrap-modal').click(function(){
+          animModal.reverse();
+        });        

@@ -137,3 +137,62 @@
 
 
   }
+
+
+
+
+
+  .wrap-modal{
+    background-color: hsl(0, 0%, 20%, 0.33);
+    height: 100vh;
+    padding-top: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    z-index: 999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .inner-modal{
+      background-color: #FFFFFF;
+      padding-top: 30px;
+      background: #FBFCFF;
+box-shadow: 0px 0px 30px rgba(51, 51, 51, 0.08);
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 30px;
+position:relative;
+    }
+
+
+  }
+
+
+  .wrap-ul{
+    display: flex;
+    align-items: flex-start;
+    width: 90%;
+  }
+
+  .disclaimer-modal{
+    font-family: $montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .close-modal{
+    position: absolute;
+    z-index: 999999;
+    width: 20px;
+    height: 20px;
+    top: 1rem;
+    right: 1rem;
+  }
