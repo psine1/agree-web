@@ -51,7 +51,7 @@ tl_Global
     }
 
 
-
+ 
 
         var animRiesgo = gsap.timeline({repeat: 0});
         animRiesgo.timeScale( 1 );  
