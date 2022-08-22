@@ -127,7 +127,7 @@ tl_Global
         sizeAll();
 
 
-
+ 
 
         var animModal = gsap.timeline({paused: true});
         animModal
