@@ -1145,9 +1145,9 @@ footer{
 
 
 .wrap-card-img{
-    display: flex;
+  /*  display: flex;
     gap: 1rem;
-
+*/
 
 }
 
@@ -1247,6 +1247,12 @@ a {
 
 
 /* swiper */
+
+.container-swp{
+    width: 1152px;
+    overflow: hidden;
+
+}
 
 .wrap-bullets{
     position: relative;
@@ -1412,6 +1418,10 @@ footer{
 }   
 }
 
+.container-swp{
+    width: 100%;
+    overflow: visible;
 
+}
 
 }

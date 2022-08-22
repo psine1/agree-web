@@ -894,8 +894,9 @@ footer .footer-left {
 }
 
 .wrap-card-img {
-  display: flex;
-  gap: 1rem;
+  /*  display: flex;
+      gap: 1rem;
+  */
 }
 
 .card .card-text {
@@ -956,6 +957,11 @@ a {
 }
 
 /* swiper */
+.container-swp {
+  width: 1152px;
+  overflow: hidden;
+}
+
 .wrap-bullets {
   position: relative;
   padding-top: 20px;
@@ -1056,6 +1062,10 @@ a {
     text-align: center;
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  .container-swp {
+    width: 100%;
+    overflow: visible;
   }
 }
 .fadeInUp {
