@@ -56,7 +56,7 @@
 .nav-wrap-all .nav-wrap .nav-bar .fill-button {
   font-size: 1rem;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   border: 1px solid #3DE7BC;
   border-radius: 37px;
   padding: 13px 30px 13px 30px;
@@ -451,6 +451,7 @@ h3 {
 
 footer {
   background-color: #FBFCFF;
+  color: #397367;
 }
 footer .wrap-green {
   background: #397367;
@@ -476,14 +477,18 @@ footer .footer-bottom {
   justify-content: space-between;
 }
 footer .social-logo {
+  width: 36px;
   height: 36px;
 }
 footer .footer-right {
   display: flex;
   gap: 0.5rem;
 }
-footer .footer-left {
-  color: #397367;
+footer p a {
+  color: #397367 !important;
+}
+footer .footer-wrap-right a {
+  color: #397367 !important;
 }
 
 .slides-container {
@@ -1257,6 +1262,11 @@ a {
   .footer-right {
     margin-top: 2rem;
   }
+  .footer-wrap-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .feature-card h4 {
     font-size: 26px;
   }
@@ -1439,6 +1449,8 @@ a {
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 30px;
   position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .wrap-ul {
@@ -1821,6 +1833,10 @@ h5 {
 }
 
 /*wrkspace*/
+.pos-riesgo {
+  transform: translate(0px, 130px);
+}
+
 @media (max-width: 576px) {
   .wrap-financiamiento-img {
     height: 250px;

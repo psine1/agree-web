@@ -60,7 +60,7 @@
                     .fill-button{
                         font-size: 1rem;
                         font-weight: 700;                    
-                        color: #FFFFFF;
+                        color: #FFFFFF !important;
                         border: 1px solid $secondaryColor;
                         border-radius: 37px;
                         padding: 13px 30px 13px 30px;
@@ -608,6 +608,7 @@ footer{
     }
 
     .social-logo{
+        width: 36px;
         height: 36px;
     }
 
@@ -618,8 +619,24 @@ footer{
 
     .footer-left{
 
-        color: #397367;
+
+
     }    
+
+
+    
+
+    color: #397367;
+    p a{
+         color: #397367 !important;
+     }
+    
+     .footer-wrap-right{
+        a{
+            color: #397367 !important;
+        }
+     }
+
 
 }
 
@@ -1634,6 +1651,12 @@ a {
 
             .footer-right{
                 margin-top: 2rem;
+            }
+
+            .footer-wrap-right{
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
 
 
