@@ -371,7 +371,7 @@ h3 {
 .wrap-feature-cards-sm {
   gap: 1rem;
   margin-top: 3rem;
-  margin-bottom: 6rem;
+  /*  margin-bottom: 6rem; */
 }
 .wrap-feature-cards-sm .feature-card {
   background: #FFFFFF;
@@ -1606,8 +1606,32 @@ h5 {
   padding-right: 2rem;
 }
 
+.p-r4 {
+  padding-right: 4rem;
+}
+
+.p-r6 {
+  padding-right: 6rem;
+}
+
 .p-l2 {
   padding-left: 2rem;
+}
+
+.p-t1 {
+  padding-top: 1rem;
+}
+
+.p-t2 {
+  padding-top: 2rem;
+}
+
+.p-b2 {
+  padding-bottom: 2rem;
+}
+
+.p-b4 {
+  padding-bottom: 4rem;
 }
 
 .row-reverse {
@@ -1765,6 +1789,10 @@ h5 {
     width: 100% !important;
   }
 }
+.bkg-color-benef {
+  background-color: #FBFCFF;
+}
+
 .inDesktop-hidden {
   display: none;
 }

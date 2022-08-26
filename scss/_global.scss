@@ -135,9 +135,33 @@ h5{
     padding-right: 2rem;
 }
 
+.p-r4{
+    padding-right: 4rem;
+}
+
+.p-r6{
+    padding-right: 6rem;
+}
+
 .p-l2{
     padding-left: 2rem;
 }
+
+.p-t1{
+padding-top: 1rem;
+}
+
+.p-t2{
+    padding-top: 2rem;
+    }
+
+    .p-b2{
+        padding-bottom: 2rem;
+    } 
+
+    .p-b4{
+        padding-bottom: 4rem;
+    }    
 
 .row-reverse{
     flex-direction: row-reverse;
@@ -323,4 +347,6 @@ h3{
 
 }
 
-
+.bkg-color-benef{
+    background-color: #FBFCFF;
+}
