@@ -45,6 +45,7 @@
                     }
 
                     .border-button{
+                        font-family: $inter;
                         font-size: 1rem;
                         font-weight: 700;
                         color: $secondaryColor;
@@ -54,10 +55,12 @@
                         background-color: #FFFFFF;
                         a{
                             text-decoration: none !important;
+                            cursor: pointer;
                           }
                     }
 
                     .fill-button{
+                        font-family: $inter;
                         font-size: 1rem;
                         font-weight: 700;                    
                         color: #FFFFFF !important;
@@ -65,8 +68,10 @@
                         border-radius: 37px;
                         padding: 13px 30px 13px 30px;
                         background-color: $secondaryColor;
+                        cursor: pointer;
                         a{
                             text-decoration: none !important;
+                            cursor: pointer;
                           }
                     }   
                     
@@ -223,6 +228,7 @@ h3{
             padding-right: 1rem;
     
             .fill-button{
+                font-family: $inter;
                 font-size: 1rem;
                 font-weight: 700;                    
                 color: #FFFFFF;
@@ -741,7 +747,8 @@ footer{
 .wrap-border-button{
     border: 1px solid #3DE7BC;
     border-radius: 37px;
-    padding: 0px 0px 0px 0px;
+    padding: 13px 0px 13px 0px;
+    height: auto;
 }
 
 .fill-button-toggle{
@@ -764,6 +771,8 @@ footer{
     border: none;
     padding: 13px 30px 13px 30px;
     background-color: transparent;
+    border-radius: 37px;
+
 }  
 
 
@@ -866,6 +875,7 @@ footer{
         .hero-tittle{
     
             .fill-button{
+                font-family: $inter;
                 font-size: 1rem;
                 font-weight: 700;                    
                 color: #FFFFFF;
@@ -874,6 +884,7 @@ footer{
                 padding: 15px 36px 15px 36px;
                 background-color: $secondaryColor;
                 margin-top: 1.5rem;
+                cursor: pointer;
 
             }     
             
@@ -1043,6 +1054,7 @@ footer{
                   }
 
                   .border-button{
+                      font-family: $inter;
                       font-size: 1rem;
                       font-weight: 700;
                       color: $secondaryColor;
@@ -1053,10 +1065,12 @@ footer{
                       
                       a{
                         text-decoration: none !important;
+                        cursor: pointer;
                       }
                   }
 
                   .fill-button{
+                      font-family: $inter;
                       font-size: 1rem;
                       font-weight: 700;                    
                       color: #FFFFFF;
@@ -1064,8 +1078,10 @@ footer{
                       border-radius: 37px;
                       padding: 13px 30px 13px 30px;
                       background-color: $secondaryColor;
+                      cursor: pointer;
                       a{
                         text-decoration: none !important;
+                        cursor: pointer;
                       }
 
                   }     
@@ -1298,7 +1314,9 @@ a {
 
 
 
-
+  .reverse-p{
+    padding-left: 1rem;
+}
 
 
 
@@ -1306,6 +1324,9 @@ a {
   
 @media (max-width: 576px) { 
     
+    .reverse-p{
+        padding-left: 0px;
+    }
 
     .nav-wrap-all{
         .nav-wrap{ 
@@ -1636,7 +1657,7 @@ a {
 
               .slides-container{
                 position: relative;
-                pointer-events: auto;
+                cursor: pointer;
                 height: 100%; 
 
               }
@@ -1702,5 +1723,24 @@ footer{
 
 }
 
+
+
+
+a{
+    cursor: pointer;
+}
+
+
+.goToFinanciamiento, .goToWorkspace, .goToRiesgo{
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+
+
+.goToFinanciamiento:hover, .goToWorkspace:hover, .goToRiesgo:hover{
+    box-shadow: 0px 0px 50px #3333331a;
+    border-radius: 30px;
+}
 
 

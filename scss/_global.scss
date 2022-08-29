@@ -31,6 +31,7 @@ p{
 }
 
 .fill-button{
+    font-family: $inter;
     font-size: 1rem;
     font-weight: 700;                    
     color: #FFFFFF;
@@ -159,9 +160,21 @@ padding-top: 1rem;
         padding-bottom: 2rem;
     } 
 
+    .p-b3{
+        padding-bottom: 3rem;
+    }  
+
     .p-b4{
         padding-bottom: 4rem;
-    }    
+    } 
+    
+    .p-b5{
+        padding-bottom: 5rem;
+    } 
+    
+    .p-b6{
+        padding-bottom: 6rem;
+    }     
 
 .row-reverse{
     flex-direction: row-reverse;
@@ -315,6 +328,7 @@ padding-top: 1rem;
 }
 
 .fill-button{
+    font-family: $inter;
     font-size: 14px;
     font-weight: 700;                    
     color: #FFFFFF;

@@ -116,9 +116,7 @@ tl_Global
             
             if ( w < 546) {
               TweenMax.set(".wrappie",  {scale:w/100*.16}); 
-             }            
-
-
+             }                       
         }
         
         
@@ -171,3 +169,32 @@ tl_Global
     });
   }); // end DOM ready
 })(jQuery); // end jQuery
+
+
+
+/*buttons*/
+
+var goToRiesgo = document.querySelector(".goToRiesgo");
+var goToWorkspace = document.querySelector(".goToWorkspace");
+var goToFinanciamiento = document.querySelector(".goToFinanciamiento");
+
+if (goToRiesgo){
+  goToRiesgo.addEventListener("click", function() {
+    location.href = "riesgo.html";
+  });
+}
+
+if (goToWorkspace){
+  goToWorkspace.addEventListener("click", function() {
+    location.href = "workspace.html";
+  });
+}
+
+if (goToFinanciamiento){
+  goToFinanciamiento.addEventListener("click", function() {
+    location.href = "financiamiento-distribuidor.html";
+  });
+}
+
+
+
