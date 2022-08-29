@@ -114,9 +114,20 @@ tl_Global
              TweenMax.set(".wrappie",  {scale:1}); 
             }
             
-            if ( w < 546) {
+
+             
+             if ( w < 1005) {
+              TweenMax.set(".wrappie",  {scale:w/100*.085}); 
+             }      
+             
+
+
+             if ( w < 550) {
               TweenMax.set(".wrappie",  {scale:w/100*.16}); 
-             }                       
+             } 
+             
+             
+
         }
         
         
