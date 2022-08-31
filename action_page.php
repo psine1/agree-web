@@ -20,8 +20,8 @@ $message .= "País de origen de la empresa: " . $business . " \r\n";
 $message .= "Mensaje: " . $_POST['message'] . " \r\n";
 $message .= "Enviado el: " . date('d/m/Y', time());
 
-$para = 'patricio.sine@gmail.com';
-$asunto = 'Mensaje Agree';
+$para = 'info@agree.ag';
+$asunto = 'Mensaje agreemarket.com';
 
 mail($para, $asunto, utf8_decode($message), $header);
 
