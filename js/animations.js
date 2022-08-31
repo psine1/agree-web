@@ -94,6 +94,8 @@ tl_Global
               slidesPerView: 3,
               spaceBetween: 20,
             },
+
+         
             1024: {
               slidesPerView: 3,
               spaceBetween: 10,
@@ -120,7 +122,6 @@ tl_Global
               TweenMax.set(".wrappie",  {scale:w/100*.085}); 
              }      
              
-
 
              if ( w < 550) {
               TweenMax.set(".wrappie",  {scale:w/100*.16}); 

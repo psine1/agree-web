@@ -6,6 +6,23 @@
     display: block;
 }
 
+
+
+
+@media (max-width: 900px) { 
+
+    .inDesktop-hidden{
+        display: block;
+    }
+
+
+    .inMobile-hidden{
+        display: none;
+    }
+
+}
+
+
 @media (max-width: 576px) { 
 
     .inDesktop-hidden{
